@@ -1,0 +1,37 @@
+body{
+    color:rgb(56, 0, 0);
+    animation-name: backgroundanimation;
+    animation-duration: 40s;
+}
+body h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20%;
+}
+@keyframes backgroundanimation {
+    0% {background-color: aliceblue;}
+    10%{background-color: antiquewhite;}
+    20%{background-color: whitesmoke;}
+    30%{background-color: lightgrey;}
+    40%{background-color: white;}
+    50%{background-color: gainsboro;}
+    60%{background-color: aliceblue;}
+    70%{background-color: antiquewhite;}
+    80%{background-color: whitesmoke;}
+    90%{background-color: lightgrey;}
+    100%{background-color: white;}
+    
+}
+li:hover
+{
+    font-size: 40px;
+}
+#Special:active{
+    font-size: 1000px;
+}
